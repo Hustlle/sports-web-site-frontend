@@ -21,7 +21,7 @@ export class MainComponent implements OnInit {
   ) {
   }
 
-  test = ''
+  test = 'TEST'
   ngOnInit(): void {
     this.http.getTest().subscribe((res: any) => {
       this.test = res.message

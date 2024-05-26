@@ -14,6 +14,6 @@ export class ServiceService {
   }
 
   getTest(): Observable<Object> {
-    return this.http.get(`${this.apiUrl}`)
+    return this.http.get(`${this.apiUrl}/`)
   }
 }
